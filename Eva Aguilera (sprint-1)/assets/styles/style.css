@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    width: 8rem;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-item {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1rem;
+
+}
+
+.nav-item a {
+    background-color: #13678A;
+    border-radius: 5px;
+    color: white;
+    margin: 0.4rem;
+
+}
+
+/* Esto es header*/
+
+.carousel-item h2 {
+
+    text-align: center;
+    background-color: #45C4B0;
+    width: 100%;
+    height: 10rem;
+    color: white;
+
+}
+
+h2 {
+    font-size: 12rem;
+    padding-top: 4rem;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+/* Esto es home lo que esta en main*/
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem;
+
+
+}
+
+.boxbutton {
+    display: flex;
+    justify-content: space-between;
+
+    /* este boton es details de las cards */
+}
+
+/* barra de categorias*/
+
+.card-body {
+    text-align: center;
+}
+
+img section {
+
+    height: 13rem;
+    object-fit: cover;
+}
+
+
+.categorias {
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+/* Esto es footer*/
+
+footer {
+    height: 3rem;
+    background-color: #9AEBA3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    flex-wrap: wrap;
+}
+
+
+
+.iconos {
+    display: flex;
+    gap: 3rem;
+
+}
+
+/* Esto es contac */
+.form {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonc {
+
+    margin-left: 45%;
+}
+
+.mb-3 {
+    width: 50%;
+}
+
+/* Esto es details */
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajadetails {
+    background-color: #012030;
+    width: 40rem;
+    height: 20%;
+    border-radius: 1rem;
+
+
+}
+
+.museon {
+    width: 15rem;
+    height: 20rem;
+    object-fit: fill;
+    margin-top: 1.5rem;
+    border-radius: 2rem 0rem 0rem 2rem;
+
+}
+
+.text {
+    background-color: aliceblue;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    border-radius: 0rem 2rem 2rem 0rem;
+
+}
+
+.boxi-t {
+    display: flex;
+    margin: 2rem;
+
+}
+
+/*responsive celular*/
+@media only screen and (min-width:320px) and (max-width: 767px) {
+    .cajadetails {
+        width: 18rem;
+        height: 20%;
+        border-radius: 0.5rem;
+    }
+
+    .boxi-t {
+        flex-direction: column;
+        margin: 1.5rem;
+    }
+
+    .text {
+        background-color: aliceblue;
+        width: 15rem;
+        height: 20rem;
+        text-align: center;
+        margin-top: 0rem;
+        border-radius: 0rem 0rem 1rem 1rem;
+
+    }
+
+    .museon {
+        border-radius: 1rem 1rem 0rem 0rem;
+        margin-top: 0rem;
+    }
+
+    /* Esto es contac */
+
+    .mb-3 {
+        width: 100%;
+    }
+
+}
+
+/* esto es stats */
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem;
+
+}
+
+th {
+    background-color: #13678A;
+    border: white 2px solid;
+}
+
+
+td {
+    background-color: #9AEBA3;
+    border: white 2px solid;
+
+}
