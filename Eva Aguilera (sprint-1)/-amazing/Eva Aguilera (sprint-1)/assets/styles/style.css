@@ -58,8 +58,10 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
     margin: 5rem;
+
+
 }
 
 .boxbutton {
@@ -94,12 +96,12 @@ img section {
 /* Esto es footer*/
 
 footer {
-    height: 6rem;
+    height: 3rem;
     background-color: #9AEBA3;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-
+    padding: 4rem;
     flex-wrap: wrap;
 }
 
@@ -109,16 +111,6 @@ footer {
     display: flex;
     gap: 3rem;
 
-}
-
-/* Esto son las cards de upcoming y past events*/
-
-#eventos-pasados-contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
 }
 
 /* Esto es contac */
@@ -180,28 +172,6 @@ footer {
 
 }
 
-/* esto es stats */
-
-table {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5rem 0rem;
-
-}
-
-th {
-    background-color: #13678A;
-    border: white 2px solid;
-}
-
-
-td {
-    background-color: #9AEBA3;
-    border: white 2px solid;
-
-}
-
 /*responsive celular*/
 @media only screen and (min-width:320px) and (max-width: 767px) {
     .cajadetails {
@@ -236,56 +206,26 @@ td {
         width: 100%;
     }
 
-    .nav-item a {
-        width: 10rem;
-        /* cuadrado de pages */
-    }
-
-    .categorias {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer {
-        gap: 10px;
-        justify-content: center;
-
-        height: 7rem;
-    }
-
-    .Category {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .search {
-        margin: 1rem;
-    }
-
-    table {
-        margin: 2rem;
-    }
 }
 
-/*responsive tablet*/
-@media only screen and (min-width:768px) and (max-width: 1022px) {
-    .nav-item a {
-        width: 10rem;
-        /* cuadrado de pages */
-    }
+/* esto es stats */
 
-    .Category {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem;
 
-    .search {
-        margin: 1rem;
-    }
+}
+
+th {
+    background-color: #13678A;
+    border: white 2px solid;
+}
+
+
+td {
+    background-color: #9AEBA3;
+    border: white 2px solid;
+
 }

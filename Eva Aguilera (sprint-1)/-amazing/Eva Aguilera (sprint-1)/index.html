@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/Logo Amazing Events.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="./assets/img/Logo Amazing Events.png " type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
-    <title>Amazing Events</title>
+    <title>Document</title>
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="../img/Logo Amazing Events.png " alt="" class="logo"></a>
+            <a class="navbar-brand" href="#"><img src="./assets/img/Logo Amazing Events.png" alt="" class="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -25,19 +25,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html" class="letra">Home</a>
+                        <a class="nav-link letra" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link letra" href="./upcomingevents.html">Upcoming Events</a>
+                        <a class="nav-link letra" href="./assets/pages/upcomingevents.html">Upcoming Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link letra" href="./pastevents.html">Past Events</a>
+                        <a class="nav-link letra" href="./assets/pages/pastevents.html">Past Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link letra" href="./contac.html">Contac</a>
+                        <a class="nav-link letra" href="./assets/pages/contac.html">Contac</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link letra" href="./stats.html">Stats</a>
+                        <a class="nav-link letra" href="./assets/pages/stats.html">Stats</a>
                     </li>
                 </ul>
 
@@ -48,6 +48,12 @@
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
+                    <h2>Home</h2>
+                </div>
+                <div class="carousel-item">
+                    <h2>Upcoming events</h2>
+                </div>
+                <div class="carousel-item">
                     <h2>Past Events</h2>
                 </div>
                 <div class="carousel-item">
@@ -55,12 +61,6 @@
                 </div>
                 <div class="carousel-item">
                     <h2>Stats</h2>
-                </div>
-                <div class="carousel-item">
-                    <h2>Home</h2>
-                </div>
-                <div class="carousel-item">
-                    <h2>Upcoming Events</h2>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -74,9 +74,16 @@
     </header>
 
 
+
+
+
+
     <main>
 
+
         <nav class="navbar bg-body-tertiary Category">
+
+
 
             <div class="categorias">
                 <input type="checkbox" id="checkbox1" value="option1">
@@ -99,8 +106,6 @@
                 <label for="checkbox1">Book Exchange</label>
             </div>
 
-
-
             <div class="search">
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -110,16 +115,95 @@
 
         </nav>
 
-        <section class="container-fluid d-flex flex-wrap justify-content-center align-items-center gap-3"
-            id="contenedor">
-            <div id="eventos-pasados-contenedor"></div>
+        <section class="cards">
+            <div class="card" style="width: 18rem; height: 25rem;">
+                <img src="./assets/img/Feria de comidas7.jpg " class="card-img-top" alt="Feria">
+                <div class="card-body">
+                    <h5 class="card-title">Festival of the collectivities</h5>
+                    <p class="card-text">Enjoy your favorite dishes from different countries in a unique event for the
+                        whole family.</p>
+                    <div class="boxbutton">
+                        <h5>Price $5</h5>
+                        <a href="./assets/pages/details.html" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem; height: 25rem;">
+                <img src="./assets/img/Salida al museo5.jpg" class="card-img-top" alt="museo">
+                <div class="card-body">
+                    <h5 class="card-title">Jurassic Park</h5>
+                    <p class="card-text">Let's go to the paleontology museum for an incredible tour to learn about the
+                        largest dinosaurs.</p>
+                    <div class="boxbutton">
+                        <h5>Price $15</h5>
+                        <a href="./assets/pages/details.html" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem; height: 25rem;">
+                <img src="./assets/img/Fiesta de disfraces1.jpg" class="card-img-top" alt="Fiesta">
+                <div class="card-body">
+                    <h5 class="card-title">Halloween Night</h5>
+                    <p class="card-text">Come in your scariest costume character to win amazing prizes.</p>
+                    <div class="boxbutton">
+                        <h5>Price $12</h5>
+                        <a href="./assets/pages/details.html" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem; height: 25rem;">
+                <img src="./assets/img/Concierto de musica1.jpg" class="card-img-top" alt="musica1">
+                <div class="card-body">
+                    <h5 class="card-title">Metallica in concert</h5>
+                    <p class="card-text">The only concert of the most emblematic band in the world</p>
+                    <div class="boxbutton">
+                        <h5>Price $150</h5>
+                        <a href="./assets/pages/details.html" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem; height: 25rem;">
+                <img src="./assets/img/Maraton3.jpg " class="card-img-top" alt="Maraton">
+                <div class="card-body">
+                    <h5 class="card-title">10K for life</h5>
+                    <p class="card-text">Come and exercise, improve your health and lifestyle.</p>
+                    <div class="boxbutton">
+                        <h5>Price $3</h5>
+                        <a href="./assets/pages/details.html" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem; height: 25rem;">
+                <img src="./assets/img/Books.jpg" class="card-img-top" alt="books">
+                <div class="card-body">
+                    <h5 class="card-title">School Book Fair</h5>
+                    <p class="card-text">Bring your unused school book and bring the one you need.</p>
+                    <div class="boxbutton">
+                        <h5>Price $1</h5>
+                        <a href="./assets/pages/details.html" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem; height: 25rem;">
+                <img src="./assets/img/Cine7.jpg" class="card-img-top" alt="Cine">
+                <div class="card-body">
+                    <h5 class="card-title">Avengers</h5>
+                    <p class="card-text">Marvel's Avengers 3d premiere the start of an epic saga with your best
+                        superheroes</p>
+                    <div class="boxbutton">
+                        <h5>Price $250</h5>
+                        <a href="./assets/pages/details.html" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
         </section>
-
-
     </main>
-
-
-
 
 
     <footer>
@@ -163,12 +247,11 @@
 
 
 
-    <script src="../Javascript/data.js"></script>
-    <script src="../Javascript/pastevents.js"></script>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html># Amazing-Events

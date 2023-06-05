@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
-    <title>Amazing Events</title>
+    <title>Details</title>
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="../img/Logo Amazing Events.png " alt="" class="logo"></a>
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html" class="letra">Home</a>
+                        <a class="nav-link letra" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link letra" href="./upcomingevents.html">Upcoming Events</a>
@@ -47,11 +47,9 @@
     <header>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
+
                 <div class="carousel-item active">
-                    <h2>Past Events</h2>
-                </div>
-                <div class="carousel-item">
-                    <h2>Contac</h2>
+                    <h2>Details</h2>
                 </div>
                 <div class="carousel-item">
                     <h2>Stats</h2>
@@ -62,6 +60,13 @@
                 <div class="carousel-item">
                     <h2>Upcoming Events</h2>
                 </div>
+                <div class="carousel-item">
+                    <h2>Past Events</h2>
+                </div>
+                <div class="carousel-item">
+                    <h2>Contac Us</h2>
+                </div>
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -70,54 +75,24 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </button>
         </div>
-
     </header>
 
+    <section class="details">
+        <div class="cajadetails">
+            <div class="boxi-t">
+                <img class="museon" src="../img/Salida al museo5.jpg" alt="museo">
 
-    <main>
+                <div class="text">
+                    <h2>Titulo</h2>
+                    <h5>Event Data</h5>
+                    <h5>Event Data</h5>
+                    <h5>Event Data</h5>
+                    <h5>Event Data</h5>
 
-        <nav class="navbar bg-body-tertiary Category">
-
-            <div class="categorias">
-                <input type="checkbox" id="checkbox1" value="option1">
-                <label for="checkbox1">Food Fair</label>
+                </div>
             </div>
-            <div class="categorias">
-                <input type="checkbox" id="checkbox1" value="option1">
-                <label for="checkbox1">Museum</label>
-            </div>
-            <div class="categorias">
-                <input type="checkbox" id="checkbox1" value="option1">
-                <label for="checkbox1">Costume Party</label>
-            </div>
-            <div class="categorias">
-                <input type="checkbox" id="checkbox1" value="option1">
-                <label for="checkbox1">Music Concert</label>
-            </div>
-            <div class="categorias">
-                <input type="checkbox" id="checkbox1" value="option1">
-                <label for="checkbox1">Book Exchange</label>
-            </div>
-
-
-
-            <div class="search">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn" type="submit">Search</button>
-                </form>
-            </div>
-
-        </nav>
-
-        <section class="container-fluid d-flex flex-wrap justify-content-center align-items-center gap-3"
-            id="contenedor">
-            <div id="eventos-pasados-contenedor"></div>
-        </section>
-
-
-    </main>
-
+        </div>
+    </section>
 
 
 
@@ -163,12 +138,12 @@
 
 
 
-    <script src="../Javascript/data.js"></script>
-    <script src="../Javascript/pastevents.js"></script>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
