@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    width: 8rem;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-item {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1rem;
+
+}
+
+.nav-item a {
+    background-color: #13678A;
+    border-radius: 5px;
+    color: white;
+    margin: 0.4rem;
+
+}
+
+/* Esto es header*/
+
+.carousel-item h2 {
+
+    text-align: center;
+    background-color: #45C4B0;
+    width: 100%;
+    height: 10rem;
+    color: white;
+
+}
+
+h2 {
+    font-size: 12rem;
+    padding-top: 4rem;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+/* Esto es home lo que esta en main*/
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 2rem;
+}
+img {
+    object-fit: cover;
+}
+#form-checkbox {
+    width: 50rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox{
+    background-color: #52bae6;
+}
+nav{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Esto es footer*/
+
+footer {
+    height: 6rem;
+    background-color: #9AEBA3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.iconos {
+    display: flex;
+    gap: 3rem;
+}
+
+/* Esto son las cards de upcoming y past events*/
+
+#eventos-pasados-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 2rem;
+}
+#eventos-futuros-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 2rem;
+}
+
+/* Esto es contac */
+.form {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonc {
+
+    margin-left: 45%;
+}
+
+.mb-3 {
+    width: 50%;
+}
+
+/* Esto es details */
+#contenedor-details{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+}
+
+/* esto es stats */
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem;
+
+}
+
+th {
+    background-color: #13678A;
+    border: white 2px solid;
+}
+
+
+td {
+    background-color: #9AEBA3;
+    border: white 2px solid;
+
+}
+
+/*responsive celular*/
+@media only screen and (min-width:320px) and (max-width: 767px) {
+    
+/* Esto es contac */
+
+    .mb-3 {
+        width: 100%;
+    }
+
+    .nav-item a {
+        width: 10rem;
+        /* cuadrado de pages */
+    }
+
+    footer {
+        gap: 10px;
+        justify-content: center;
+        height: 7rem;
+    }
+    table {
+        margin: 2rem;
+    }
+        /* ESTO ES LA BARRA DE CATEGORIAS */    
+    #form-checkbox{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0rem;
+        gap: 1rem;
+        width: 10rem;
+        height: 0rem;
+    }
+    nav{ 
+        display: flex;
+        justify-content: space-around;
+       
+    }
+
+}
+
+/*responsive tablet*/
+@media only screen and (min-width:768px) and (max-width: 1022px) {
+    .nav-item a {
+        width: 10rem;
+        /* cuadrado de pages */
+    }
+
+    .Category {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search {
+        margin: 1rem;
+    }
+}
